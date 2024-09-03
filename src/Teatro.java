@@ -8,6 +8,7 @@ public class Teatro {
     }
 
     public void mostrarMapaDeAsientos() {
+        System.out.println("Asientos con X están ocupados");
         for (Zona zona : zonas) {
             zona.mostrarAsientos();
             System.out.println();
